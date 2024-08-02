@@ -70,16 +70,15 @@ ul {
   top: -14px;
 }
 .preview {
-  width: 1776px;
-  height: 734px;
   background-image: url(../images/preview.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  padding: 320px 0 120px;
 }
 .preview-backdrop {
   display: flex;
-  justify-content: center;
+
   align-items: center;
 }
 .preview-text {
@@ -100,7 +99,7 @@ ul {
   letter-spacing: 4px;
 }
 .top {
-  margin: 107px 227px;
+  margin: 100px 0;
 }
 .top-text {
   display: flex;
@@ -157,8 +156,6 @@ ul {
   height: 46px;
 }
 .quote {
-  width: 1776px;
-  height: 898px;
   background-color: #fff7f2;
 }
 .quote-inner {
