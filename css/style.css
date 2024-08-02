@@ -13,6 +13,7 @@ body {
   color: #1b1b1b;
   font-size: 14px;
   line-height: 1.4;
+  overflow-x: hidden;
 }
 a {
   color: inherit;
@@ -30,7 +31,6 @@ ul {
 .header-inner {
   display: flex;
   gap: 32px;
-  padding: 0 205px;
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -69,13 +69,15 @@ ul {
   border-radius: 50%;
   top: -14px;
 }
-.preview-backdrop {
+.preview {
   width: 1776px;
   height: 734px;
   background-image: url(../images/preview.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+.preview-backdrop {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,10 +85,6 @@ ul {
 .preview-text {
   text-transform: uppercase;
   color: #ffffff;
-  padding: 393px 611px 127px 0;
-  width: 918px;
-  height: 214px;
-  gap: 38px;
 }
 .preview-title {
   font-family: "Crimson Text", serif;
@@ -199,20 +197,16 @@ ul {
   line-height: 28px;
 }
 .services-inner {
-  width: 1773px;
-  height: 894px;
   text-transform: uppercase;
 }
 .services-text {
-  padding-top: 110px;
-  padding-left: 768px;
+  text-align: center;
 }
 .services-title {
   font-family: "Crimson Text", serif;
   font-weight: 600;
   font-style: normal;
   font-size: 45px;
-  padding-left: 20px;
 }
 .services-quote {
   font-family: "Poppins", sans-serif;
@@ -224,7 +218,7 @@ ul {
 .services-offer {
   display: flex;
   gap: 70px;
-  padding: 50px 205px;
+  margin: 50px 0;
 }
 .services-p {
   margin-top: 28px;
@@ -243,7 +237,6 @@ ul {
   font-size: 25px;
 }
 .products-inner {
-  padding-left: 205px;
   height: 1060px;
   margin-bottom: 100px;
 }
@@ -289,7 +282,6 @@ ul {
 }
 
 .footer {
-  width: 1776px;
   background-color: #e5e5e5;
 }
 .footer-item-one,
@@ -326,6 +318,7 @@ ul {
   background-color: white;
   border: white;
   width: 387px;
+  text-align: center;
 }
 .footer-btn {
   background-color: #1b1b1b;
