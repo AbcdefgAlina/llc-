@@ -99,7 +99,7 @@ ul {
   letter-spacing: 4px;
 }
 .top {
-  margin: 100px 0;
+  margin: 104px 0;
 }
 .top-text {
   display: flex;
@@ -157,11 +157,12 @@ ul {
 }
 .quote {
   background-color: #fff7f2;
+  margin: 104px auto;
 }
 .quote-inner {
-  padding: 92px 205px;
+  padding: 92px auto;
   display: flex;
-  gap: 188px;
+  gap: 176px;
   text-transform: uppercase;
 }
 .quote-text {
@@ -195,9 +196,11 @@ ul {
 }
 .services-inner {
   text-transform: uppercase;
+  margin-bottom: 104px;
 }
 .services-text {
   text-align: center;
+  margin-bottom: 50px;
 }
 .services-title {
   font-family: "Crimson Text", serif;
@@ -214,8 +217,7 @@ ul {
 }
 .services-offer {
   display: flex;
-  gap: 70px;
-  margin: 50px 0;
+  gap: 60px;
 }
 .services-p {
   margin-top: 28px;
@@ -235,7 +237,7 @@ ul {
 }
 .products-inner {
   height: 1060px;
-  margin-bottom: 100px;
+  margin-bottom: 104px;
 }
 .products-offer-images {
   width: 304px;
@@ -244,7 +246,7 @@ ul {
 .products-offer-one,
 .products-offer-two {
   display: flex;
-  gap: 37px;
+  gap: 40px;
   margin-top: 36px;
 }
 .products-offer-p,
@@ -290,6 +292,7 @@ ul {
   padding-bottom: 35px;
   border-bottom: 1px solid #4b5354;
 }
+
 .footer-one-title {
   text-transform: uppercase;
   font-family: "Cormorant Garamond", serif;
@@ -333,6 +336,10 @@ ul {
   margin: 20px auto;
   color: #868686;
 }
+.footer-two-list {
+  width: 304px;
+  height: 304px;
+}
 .fooetr-two-geol {
   display: flex;
   gap: 15px;
@@ -358,4 +365,15 @@ ul {
   font-size: 14px;
   margin: 10px auto;
   color: #868686;
+}
+
+@media (max-width: 2160px) {
+  .quote-inner {
+    padding: 92px 40px;
+  }
+}
+@media (max-width: 2560px) {
+  .quote-inner {
+    padding: 92px 40px;
+  }
 }
