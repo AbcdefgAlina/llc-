@@ -81,20 +81,32 @@ ul {
   background-size: cover;
   padding: 320px 0 120px;
 }
+.preview-shop {
+  padding: 200px 0 224px;
+  margin-bottom: 63px;
+}
 .preview-backdrop {
   display: flex;
-
   align-items: center;
+}
+.preview-backdrop-shop {
+  justify-content: center;
+  margin-bottom: 48px;
 }
 .preview-text {
   text-transform: uppercase;
   color: #ffffff;
 }
+
 .preview-title {
   font-family: "Crimson Text", serif;
   font-weight: 600;
   font-style: normal;
   font-size: 66px;
+}
+.preview-title-shop {
+  font-size: 48px;
+  text-align: center;
 }
 .preview-quote {
   font-family: "Poppins", sans-serif;
@@ -102,6 +114,11 @@ ul {
   font-style: normal;
   font-size: 27px;
   letter-spacing: 4px;
+}
+.preview-quote-shop {
+  display: flex;
+  gap: 5px;
+  font-size: 16px;
 }
 .top {
   margin: 104px 0;
@@ -420,6 +437,9 @@ ul {
 .star-home {
   color: #bdbdbd;
 }
+.check_time_two {
+  margin-top: 32px;
+}
 .check_btn {
   width: 140px;
   height: 40px;
@@ -616,6 +636,207 @@ ul {
 .product-offer-btn {
   color: #1b1b1b;
   background-color: #fff;
+}
+.catalog {
+  margin-bottom: 104px;
+}
+.catalog-inner {
+  display: flex;
+  gap: 40px;
+  margin-left: -200px;
+}
+/* .catalog-left {
+  width: 360px;
+}
+.catalog-right {
+  width: 1116px;
+} */
+.catalog-left-title {
+  text-transform: uppercase;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 45px;
+}
+.catalog-left-items {
+  font-size: 18px;
+  color: #838383;
+  text-decoration: underline;
+}
+.subtitle {
+  font-weight: 500;
+  font-style: 16px;
+  text-transform: uppercase;
+  border-bottom: 0.4px solid #e1e1e1;
+  margin: 25px 0;
+}
+.catalog-left-item {
+  display: flex;
+  justify-content: space-between;
+  height: 42px;
+}
+.catalog-left-span {
+  font-size: 12px;
+  border-radius: 72%;
+  background: #e1e1e1;
+  color: #868686;
+  padding: 4px 8px;
+  margin: 10px 0px 10px 1px;
+}
+.color-span {
+  margin: 12px 8px 12px 0;
+  width: 16px;
+  height: 20px;
+}
+.catalog-left-link {
+  margin: 18px 0;
+  color: #868686;
+}
+.catalog-segment .color {
+  display: flex;
+  gap: 10px;
+}
+
+.catalog-range {
+  height: 124px;
+}
+.input[type="range"] {
+  width: 330px;
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  outline: none;
+}
+input[type="range"],
+input[type="range"]::-webkit-slider-runnable-track,
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: none;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 330px;
+  height: 1px;
+  background: #000;
+}
+
+input[type="range"]:nth-child(2)::-webkit-slider-runnable-track {
+  background: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  position: relative;
+  height: 12px;
+  width: 12px;
+  margin-top: -7px;
+  background: #fff;
+  border: 1px solid #000;
+  z-index: 1;
+}
+
+input[type="range"]:nth-child(1)::-webkit-slider-thumb {
+  z-index: 2;
+}
+
+.rangeslider {
+  position: relative;
+  height: 60px;
+  width: 330px;
+  display: inline-block;
+  margin-top: 24px;
+}
+.rangeslider input {
+  position: absolute;
+}
+.rangeslider {
+  position: absolute;
+}
+
+.rangeslider span {
+  position: absolute;
+  margin-top: 30px;
+  left: 0;
+}
+.min,
+.max {
+  width: 100%;
+}
+.left {
+  color: #838383;
+}
+.rangeslider .right {
+  font-weight: 500;
+  position: relative;
+  float: right;
+  margin-right: 196px;
+  letter-spacing: 1px;
+}
+
+@-moz-document url-prefix() {
+  .rangeslider::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #000;
+    display: block;
+    position: relative;
+    top: 16px;
+  }
+
+  input[type="range"]:nth-child(1) {
+    position: absolute;
+    top: 35px !important;
+    overflow: visible !important;
+    height: 0;
+  }
+
+  input[type="range"]:nth-child(2) {
+    position: absolute;
+    top: 35px !important;
+    overflow: visible !important;
+    height: 0;
+  }
+  input[type="range"]::-moz-range-thumb {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-top: -7px;
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 25px;
+    z-index: 1;
+  }
+
+  input[type="range"]:nth-child(1)::-moz-range-thumb {
+    transform: translateY(-20px);
+  }
+  input[type="range"]:nth-child(2)::-moz-range-thumb {
+    transform: translateY(-20px);
+  }
+}
+
+.logos-top {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.catalog-right-product {
+  display: flex;
+  gap: 10px;
+  width: 1136px;
+}
+
+.appraisal {
+  display: flex;
+  justify-content: space-between;
+}
+.catalog-right-product {
+  margin-bottom: 40px;
+}
+.catalog-right-product .products-offer-p {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 0;
 }
 .footer {
   background-color: #e5e5e5;
